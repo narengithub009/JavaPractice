@@ -15,6 +15,6 @@ public class StringClassEx {
         StringBuffer stringBuffer=new StringBuffer("Hello");
         stringBuffer.append("World");
 
-        System.out.println(stringBufferv );
+        System.out.println(stringBuffer );
     }
 }
