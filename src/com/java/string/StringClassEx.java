@@ -16,5 +16,6 @@ public class StringClassEx {
         stringBuffer.append("World");
 
         System.out.println(stringBuffer );
+        System.out.println("Pushing code git repo");
     }
 }
