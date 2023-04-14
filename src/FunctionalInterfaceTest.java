@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
 
 public class FunctionalInterfaceTest {
@@ -26,6 +29,13 @@ public class FunctionalInterfaceTest {
             return "The output is : "+t;
         };
         System.out.println(function.apply(10));
+
+        List<Integer> list= Arrays.asList(12,23,4,5,7,9,10);
+
+        list.stream().filter(t->t>4).sorted().forEach(System.out::println);
     }
+
+
+
     }
 
