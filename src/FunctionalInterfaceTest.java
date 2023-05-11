@@ -12,7 +12,6 @@ public class FunctionalInterfaceTest {
         }
     };
 
-
     public static void main(String[] args) {
 
             Runnable run_method = () -> System.out.println("run method");
